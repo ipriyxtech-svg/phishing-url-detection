@@ -51,7 +51,7 @@ phishing-detector/
 1. Clone the repository:
 
 ```id="4mhtxm"
-git clone https://github.com/ipriyxtech-svg/password-strength-checker.git
+
 ```
 
 2. Open project folder:
