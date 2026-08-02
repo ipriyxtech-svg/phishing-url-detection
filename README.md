@@ -1,138 +1,163 @@
-# 🛡️ Phishing URL Detector
+<div align="center">
 
-A modern **Phishing URL Detection Web App** built using HTML, CSS, and JavaScript.
-This tool analyzes URLs in real-time and detects potential phishing threats using heuristic and ML-inspired scoring techniques.
+# 🛡️ Phishing URL Detection
 
----
+### 🔐 AI Inspired Cyber Security Web Application
 
-## 🚀 Features
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=00F7FF&center=true&vCenter=true&width=900&lines=Phishing+URL+Detection;Cyber+Security+Project;Machine+Learning+Inspired;Real+Time+URL+Analysis;Built+with+HTML+CSS+JavaScript"/>
 
-* 🔍 Real-time URL analysis
-* 🧠 ML-inspired risk scoring system
-* ⚠️ Detects phishing indicators:
+<br>
 
-  * No HTTPS
-  * Suspicious keywords (login, verify, bank, etc.)
-  * IP-based URLs
-  * Long URLs
-  * Multiple subdomains
-* 📊 Risk classification:
+<img src="https://img.shields.io/github/stars/ipriyxtech-svg/phishing-url-detection?style=for-the-badge"/>
+<img src="https://img.shields.io/github/forks/ipriyxtech-svg/phishing-url-detection?style=for-the-badge"/>
+<img src="https://img.shields.io/github/license/ipriyxtech-svg/phishing-url-detection?style=for-the-badge"/>
+<img src="https://img.shields.io/github/last-commit/ipriyxtech-svg/phishing-url-detection?style=for-the-badge"/>
 
-  * ✅ Safe
-  * ⚠️ Suspicious
-  * ❌ Phishing
-* ⏳ Loading spinner (better UX)
-* 🎨 Modern glassmorphism UI (dark + neon glow)
+<br><br>
 
----
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Cyber%20Security-121212?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Machine%20Learning-Inspired-blue?style=for-the-badge"/>
 
-## 🛠️ Tech Stack
-
-* HTML5
-* CSS3 (Glass UI + Animations)
-* JavaScript (Vanilla JS)
+</div>
 
 ---
 
-## 📁 Project Structure
+# 🛡️ About
 
-```id="7ocsvm"
-phishing-detector/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
+**Phishing URL Detection** is a modern cyber security web application that analyzes URLs in real time and identifies potential phishing websites using heuristic and machine learning-inspired techniques.
+
+The application evaluates URLs based on multiple security indicators and classifies them as **Safe**, **Suspicious**, or **Phishing**.
+
+---
+
+# ✨ Features
+
+- 🔍 Real-Time URL Analysis
+- 🧠 ML Inspired Risk Scoring
+- 🔒 HTTPS Validation
+- 🌐 IP Address Detection
+- 📏 Long URL Detection
+- ⚠️ Suspicious Keyword Detection
+- 🌍 Multiple Subdomain Detection
+- 📊 Risk Classification
+- 🎨 Glassmorphism UI
+- ⚡ Fast Client-side Processing
+
+---
+
+# 🛠 Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,javascript,git,github,vscode"/>
+
+</p>
+
+---
+
+# 🏗 Detection Workflow
+
+```text
+User Input URL
+      │
+      ▼
+URL Analysis
+      │
+      ▼
+HTTPS Check
+      │
+      ▼
+Keyword Detection
+      │
+      ▼
+Domain Analysis
+      │
+      ▼
+Risk Score Calculation
+      │
+      ▼
+Safe / Suspicious / Phishing
 ```
 
 ---
 
-## ▶️ How to Run
+# 📂 Project Structure
 
-1. Clone the repository:
+```text
+phishing-url-detection/
 
-```id="4mhtxm"
-
-```
-
-2. Open project folder:
-
-```id="y1d6iv"
-cd phishing-detector
-```
-
-3. Run:
-
-* Open `index.html` in browser
-  OR
-* Use VS Code Live Server
-
----
-
-## 📸 Preview
-
-Add your project screenshot here:
-
-```id="64uf6y"
-/assets/screenshot.png
-```
-
-Then update:
-
-```md id="fbbkj7"
-![App Screenshot](assets/screenshot.png)
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
 
 ---
 
-## 🧠 How It Works
+# 🚀 Installation
 
-The system evaluates a URL based on multiple phishing indicators:
+```bash
+git clone https://github.com/ipriyxtech-svg/phishing-url-detection.git
 
-* HTTPS protocol validation
-* Keyword-based detection
-* Domain structure analysis
-* URL length and complexity
+cd phishing-url-detection
 
-Each factor contributes to a **risk score**, which determines whether the URL is:
+Open index.html
+```
 
-* Safe
-* Suspicious
-* Phishing
+Or run using **VS Code Live Server**.
 
 ---
 
-## 🔐 Security Note
+# 📸 Screenshots
 
-This project runs entirely on the client side.
-No URLs are stored or transmitted.
-
----
-
-## 🚀 Future Improvements
-
-* 🤖 Real Machine Learning model integration
-* 🌐 Domain age & WHOIS API integration
-* 🗂️ Phishing URL dataset + training
-* 📊 Dashboard with analytics
-* 🔐 Backend with logging system
+| Home | URL Scan | Result |
+|------|----------|--------|
+| 📷 | 📷 | 📷 |
 
 ---
 
-## 🤝 Contributing
+# 🔮 Future Improvements
 
-Contributions are welcome!
-Feel free to fork the repository and submit a pull request.
-
----
-
-## 📜 License
-
-This project is open-source and available under the MIT License.
+- 🤖 AI Model Integration
+- 📊 Dashboard Analytics
+- 🌐 WHOIS Lookup
+- ☁️ Backend Logging
+- 📡 VirusTotal API
+- 🔗 Google Safe Browsing API
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Developer
 
-Developed by **Priyanshu Rai**
+## Priyanshu Rai
+
+💻 Full Stack Developer
+
+🛡 Cyber Security Enthusiast
+
+🤖 AI / Machine Learning
+
+⛓ Blockchain Developer
+
+☁ Cloud & DevOps
+
+🌐 Portfolio
+
+https://portfolio-theta-gold-qbsedt4h1o.vercel.app
+
+🐙 GitHub
+
+https://github.com/ipriyxtech-svg
 
 ---
+
+<div align="center">
+
+## ⭐ If you found this project useful, give it a Star ⭐
+
+Made with ❤️ by **Priyanshu Rai**
+
+</div>
